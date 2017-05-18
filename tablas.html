@@ -1,0 +1,85 @@
+<!DOCTYPE html>	
+<html lang="es">
+<head>
+	<title>Tablas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table border="1">
+	    <thead>
+			<tr>
+			<td colspan="1"> <h2>Hora</h2></td> <td colspan="1"> <h2> Lunes </h2></td> <td colspan="1"> <h2> Martes </h2></td> <td colspan="1"> <h2> Miercoles </h2></td> <td colspan="1"> <h2> Jueves </h2></td> <td colspan="1"> <h2> Viernes </h2></td>
+			</tr>
+	    </thead>
+	    
+	    <tbody>
+			<tr>
+				<td rowspan="2"> 2,1 </td> <td> 2,2 </td> <td> 2,3 </td> <td> 2,4 </td> <td> 2,5 </td> <td> 2,6 </td>   
+			</tr>
+		
+			<tr>
+				<td> 3,1 </td> <td> 3,2 </td> <td> 3,3 </td> <td> 3,4 </td> <td> 3,5 </td> <!-- <td> 3,5 </td>--> 
+			</tr>
+		
+			<tr>
+				<td> 4,1 </td> <td> 4,2 </td> <td> 4,3 </td> <td> 4,4 </td> <td> 4,5 </td> <td> 4,5 </td>
+			</tr>
+		
+			<tr>
+				<td> 5,1 </td> <td> 5,2 </td> <td> 5,3 </td> <td> 5,4 </td> <td> 5,5 </td> <td> 5,5 </td>
+			</tr>
+		</tbody>
+
+        <tfoot>
+		<tr>
+			
+		</tr>
+		
+		</tfoot>
+	</table>
+	
+	<table border="1">
+		<thead>
+			<tr> 
+				<td colspan="2"; width="15%"> x </td> <!--<td> x </td>--> <td colspan="2"; width="15%"> y </td> <!--<td> y </td>-->
+			</tr>
+		</thead>
+		<tbody>
+			<tr> 
+				<td> x </td> <td> x </td> <td> y </td> <td> y </td>
+			</tr>
+			<tr> 
+				<td> x </td> <td> x </td> <td> y </td> <td> y </td>
+			</tr>
+			<tr> 
+				<td> x </td> <td> x </td> <td> y </td> <td> y </td>
+			</tr>
+		</tbody>
+	</table>
+
+	<table border="1">
+	    <thead>
+			<tr>
+			<td> <h2> celda</h2></td> <td> <h2> x</h2></td> <td> <h2> x </h2></td> <td> <h2> x</h2></td>
+			</tr>
+	    </thead>
+	    
+	    <tbody>
+			<tr>
+				<td rowspan="2"> celda </td> <td> x</td> <td colspan="2"> * </td> <!--<td> x </td> <td> x </td> <td> x </td>-->  
+			</tr>
+		
+			<tr>
+				<td> *</td> <td> x </td> <td> * </td>  <!--<td> 3,4 </td><td> 3,5 </td>  <td> 3,5 </td>--> 
+			</tr>
+		
+			<tr>
+				<td rowspan="2"> celda </td> <td> * </td> <td rowspan="2"> x</td> <td> * </td><!-- <td> 4,5 </td> <td> 4,5 </td>-->
+			</tr>
+		
+			<tr>
+				<td> x </td> <td> * </td>  <!--<td> * </td><td> 5,4 </td> <td> 5,5 </td> <td> 5,5 </td>-->
+			</tr>
+		</tbody>
+</body>
+</html>
